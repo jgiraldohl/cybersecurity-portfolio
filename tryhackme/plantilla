@@ -1,1 +1,66 @@
+# [Lab Name]
 
+## Overview
+
+**Platform:** TryHackMe  
+**Room:** [Room name]  
+**Category:** [SOC / SIEM / Network Security / Windows / Incident Response / etc.]  
+**Difficulty:** [Easy / Medium / Hard]  
+**Date:** [Month Year]
+
+### Objective
+
+[Briefly explain what the lab was designed to teach or investigate.]
+
+---
+
+## Skills Practiced
+
+- [Skill 1]
+- [Skill 2]
+- [Skill 3]
+- [Skill 4]
+- [Skill 5]
+
+---
+
+## Tools & Technologies
+
+- TryHackMe
+- [Tool]
+- [Tool]
+- [Technology]
+- [Technology]
+
+---
+
+# Investigation
+
+## 1. Initial Analysis
+
+[Explain how you started the investigation.]
+
+What information was initially available?
+
+- [Initial finding]
+- [Initial finding]
+- [Initial finding]
+
+### Evidence
+
+[Screenshot or relevant evidence]
+
+*Brief explanation of what this evidence shows.*
+
+---
+
+## 2. Investigation Process
+
+### Step 1 — [What you investigated]
+
+[Explain what you looked for and why.]
+
+**Query / Command used:**
+
+```text
+[Your query or command]
