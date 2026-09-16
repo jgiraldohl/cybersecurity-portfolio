@@ -8,16 +8,25 @@ The attackers were able to gain access into the company's network by using targe
 Once the attackers gained access, they deployed their ransomware, which encrypted critical files. The company was unable to access critical patient data, causing major disruptions in their business operations. The company was forced to shut down their computer systems and contact several organizations to report the incident and receive technical assistance.
 
 Date: Sept 16th 2026
+
 Entry: 0001
+
 Description: Documenting a Security Incident
+
 Tool(s) used: None
+
 The 5 W's 
 Capture the 5 W's of an incident.
 Who caused the incident? An organized group of unethical hackers who targeted the clinic through phishing emails.
+
 What happened? The attackers used malware to gain access to the network and deployed ransomware that encrypted critical files, including patient data.
+
 When did the incident occur? The incident occurred on a Tuesday morning at approximately 9:00 a.m.
+
 Where did the incident happen? The incident happened within the small U.S. health care clinic’s computer network and systems.
+
 Why did the incident happen? The attackers wanted to extort money from the clinic in exchange for the decryption key needed to restore access to the encrypted files.
+
 Additional notes: The incident caused significant disruptions to the clinic’s operations and prevented employees from accessing critical patient data. The clinic should investigate the attack, strengthen phishing awareness, and improve security controls to help prevent similar incidents in the future.
 
 
