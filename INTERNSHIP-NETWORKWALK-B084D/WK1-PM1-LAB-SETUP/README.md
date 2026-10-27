@@ -19,5 +19,8 @@ In Kali Linux 2026.3, the graphical network menu did not provide an option to ed
 This opened the Network Connections editor, allowing me to configure the wired connection and establish internet connectivity.
 <img width="892" height="394" alt="4-CONNECTION-STABLISHED" src="https://github.com/user-attachments/assets/d933e72e-c5dd-4fe9-b338-ea6138b9a755" />
 
+Last, I took the snapshot
+<img width="547" height="323" alt="5-SNAPSHOT" src="https://github.com/user-attachments/assets/6bf669c8-8b66-469b-8629-71516af76392" />
+
 
 
