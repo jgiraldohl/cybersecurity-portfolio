@@ -27,7 +27,7 @@ Configured the forwarding destination through "outputs.conf" and verified the fo
 
 Initially, the forwarder was configured to send data to the Splunk server's public IP address. Although the receiving port was listening, the forwarder showed the connection as configured but inactive.
 
-**Root cause:** The forwarding destination was incorrectly configured for communication between instances within the same AWS VPC.
+**Root cause:** The forwarder was configured to use the Splunk server's public IP address. Switching to the server's private IP address resolved the connectivity issue and established an active forwarding connection.
 
 **Resolution:**
 - Reconfigured the forwarding destination to use the Splunk server's private IP address.
