@@ -13,7 +13,7 @@ The lab consisted of two AWS EC2 instances:
 - **splunk-server:** Splunk Enterprise instance responsible for receiving, indexing, and searching log data.
 - **linux-os:** Linux instance running Splunk Universal Forwarder to collect and forward system logs.
 
-The Universal Forwarder monitored Linux system logs, including `/var/log/syslog`, and transmitted events to the Splunk Enterprise server over TCP port 9997.
+The Universal Forwarder monitored Linux system logs, including "/var/log/syslog", and transmitted events to the Splunk Enterprise server over TCP port 9997.
 
 ## Technical Implementation
 
@@ -21,7 +21,7 @@ The Universal Forwarder monitored Linux system logs, including `/var/log/syslog`
 
 Configured Splunk Universal Forwarder on the Linux host to collect system logs and forward them to the Splunk Enterprise instance.
 
-Configured the forwarding destination through `outputs.conf` and verified the forwarding connection.
+Configured the forwarding destination through "outputs.conf" and verified the forwarding connection.
 
 ### 2. Troubleshooting Log Forwarding
 
@@ -32,8 +32,11 @@ Initially, the forwarder was configured to send data to the Splunk server's publ
 **Resolution:**
 - Reconfigured the forwarding destination to use the Splunk server's private IP address.
 - Verified that TCP port 9997 was listening on the receiving instance.
+  ![Splunk Receiving Port](images/04-splunk-receiver-port.png)
 - Confirmed that the forwarder connection became active.
 - Verified successful log ingestion into Splunk.
+
+![Active Splunk Forwarder](images/03-splunk-forwarder-active.png)
 
 ### 3. Log Ingestion and Validation
 
@@ -49,7 +52,7 @@ Explored event metadata, including:
 
 Confirmed that Linux system logs were successfully indexed and searchable.
 
-
+![Linux Log Ingestion](images/01-splunk-linux-log-ingestion.png)
 
 ### 4. Splunk Search and Data Analysis
 
@@ -62,6 +65,18 @@ Examples included:
 - Identifying distinct log sources.
 - Analyzing event distribution over time.
 - Exploring internal Splunk indexes and audit-related data.
+
+#### Event Aggregation
+
+Used "stats" to summarize events by host, source, and sourcetype.
+
+![SPL Search Results](images/02-splunk-spl-search.png)
+
+#### Event Analysis Over Time
+
+Used "timechart" to visualize the number of events over time.
+
+![Splunk Timechart](images/05-splunk-timechart.png)
 
 ## Skills Demonstrated
 
