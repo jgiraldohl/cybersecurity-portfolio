@@ -12,8 +12,7 @@ These hands-on labs helped me better understand how password protection works, h
 
 - **Hashing vs. Encryption:** Solidified my understanding of the differences between hashing and encryption and their roles in data security.
 - **Password Hash Analysis:** Learned how to extract and analyze password-related data from protected PDF files.
-- **Password Cracking Techniques:** Gained practical experience using John the Ripper and dictionary-based attacks to recover weak passwords in a controlled lab environment.
-- **Security Tools:** Explored graphical interfaces, including Johnny GUI and NetworkWalks' browser-based tools.
+- **Password Cracking Techniques:** Gained hands-on experience recovering passwords from protected PDF files using Johnny GUI and NetworkWalks' dictionary-based password cracking tool.
 - **Password Security:** Understood how password complexity and predictability affect resistance to password cracking attacks.
 
 ## Tools Used
